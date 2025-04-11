@@ -93,7 +93,7 @@ const Home = () => {
         <div className="container mx-auto px-4 text-center">
           <div className="max-w-4xl mx-auto">
             <h1 className="text-3xl md:text-5xl font-bold mb-6 animate-fade-in">
-              Monitoramento Cívico para Caçapava
+              Observatório de Caçapava
             </h1>
             <p className="text-lg md:text-xl text-white/90 max-w-3xl mx-auto mb-10">
               Acompanhe promessas eleitorais, avalie serviços públicos e
