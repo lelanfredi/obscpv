@@ -81,8 +81,8 @@ const Home = () => {
               <Search className="h-4 w-4 mr-2" />
               Buscar
             </Button>
-            <Button size="sm" className="bg-blue-600 hover:bg-blue-700">
-              Entrar
+            <Button size="sm" className="bg-blue-600 hover:bg-blue-700" asChild>
+              <Link to="/login">Entrar</Link>
             </Button>
           </div>
         </div>
@@ -313,8 +313,9 @@ const Home = () => {
               <Button
                 size="lg"
                 className="bg-white text-indigo-600 hover:bg-indigo-50 font-medium px-8 py-3 rounded-full shadow-lg hover:shadow-xl transition-all"
+                asChild
               >
-                Cadastre-se
+                <Link to="/login">Cadastre-se</Link>
               </Button>
               <Button
                 variant="outline"
